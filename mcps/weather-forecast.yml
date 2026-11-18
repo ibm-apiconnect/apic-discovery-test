@@ -1,0 +1,8 @@
+name: weather-forecast-service
+title: Weather Forecast Service
+description: Remote Model Context Protocol (MCP) server for live meteorological observation
+version: 1.0.0
+url: https://weather-api.internal.net/sse
+remotes:
+  - type: sse
+    url: https://weather-api.internal.net/sse
