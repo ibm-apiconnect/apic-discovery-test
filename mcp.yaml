@@ -1,0 +1,12 @@
+mcpServers:
+  repository-manager:
+    command: node
+    args:
+      - ./services/repo-manager.js
+    env:
+      AUTH_TOKEN: "${AUTH_TOKEN}"
+  relational-db-service:
+    command: node
+    args:
+      - ./services/db-service.js
+      - "db://localhost:5432/appdb"

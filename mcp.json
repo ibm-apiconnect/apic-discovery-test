@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "browser-automation-service": {
+      "command": "node",
+      "args": [
+        "./services/browser-automation.js"
+      ],
+      "env": {
+        "HEADLESS_MODE": "true"
+      }
+    },
+    "file-workspace-service": {
+      "command": "node",
+      "args": [
+        "./services/file-workspace.js",
+        "/data/workspace"
+      ]
+    },
+    "context-memory-service": {
+      "command": "node",
+      "args": [
+        "./services/context-memory.js"
+      ]
+    }
+  }
+}

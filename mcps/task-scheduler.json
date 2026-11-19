@@ -1,0 +1,10 @@
+{
+  "name": "task-scheduler-service",
+  "title": "Task Scheduler Service",
+  "description": "Model Context Protocol (MCP) server for cron scheduling and background task execution",
+  "version": "1.0.0",
+  "command": "node",
+  "args": [
+    "./services/task-scheduler.js"
+  ]
+}

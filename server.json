@@ -1,0 +1,18 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server.json",
+  "name": "browser-automation-mcp",
+  "title": "Browser Automation MCP Server",
+  "description": "Automated browser interaction and UI testing Model Context Protocol (MCP) service",
+  "version": "1.0.0",
+  "command": "node",
+  "args": [
+    "./bin/browser-mcp.js"
+  ],
+  "packages": [
+    {
+      "registry": "internal-registry",
+      "name": "browser-automation-mcp",
+      "version": "1.0.0"
+    }
+  ]
+}
